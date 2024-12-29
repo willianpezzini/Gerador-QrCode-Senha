@@ -1,0 +1,20 @@
+{
+  "name": "gerador-qrcode-senha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Gerador QR code ou senhas automáticas.",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "prompt": "^1.3.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
